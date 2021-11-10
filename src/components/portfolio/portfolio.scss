@@ -51,7 +51,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
+            color: transparent;
             position: relative;
             transition: all 0.5s ease;
             cursor: pointer;
@@ -73,6 +73,7 @@
         }
         &:hover {
             background-color:$maincolor;
+            color: white;
             img {
                 opacity: 0.2;
                 z-index: 0;

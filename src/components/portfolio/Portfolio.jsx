@@ -5,10 +5,8 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                <li>Marketplace App</li>
-                <li>Terminal App</li>
-                <li>Trivia Master</li>
-                <li>BookMark</li>
+                <li>Independent Projects</li>
+                <li>Collaborative Projects</li>
             </ul>
             <div className="container">
                 <div className="item">
@@ -31,7 +29,7 @@ export default function Portfolio() {
                 </div>
                 <div className="item">
                     <a href= "https://github.com/NatalieLouise91/bookapp">
-                    <img src="" alt=""/>
+                    <img src="assets/book-mark.png" alt="BookMark App Home Page"/>
                     </a>
                     <h3>BookMark</h3>
                 </div>
