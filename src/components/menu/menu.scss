@@ -14,6 +14,11 @@
     justify-content: center;
     transition: all 1s ease;
 
+    @include desktop {
+        width: 500px;
+        right: -500px;
+    }
+
     &.active{
         right: 0;
     }
@@ -26,6 +31,10 @@
         font-weight: 300;
         color: white;
         width: 60%;
+
+        @include desktop {
+            font-size: 50px;
+        }
 
         li{
             margin-bottom: 25px;

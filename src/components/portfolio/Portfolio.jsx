@@ -3,7 +3,7 @@ import "./portfolio.scss"
 export default function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>Portfolio.</h1>
             <ul>
                 <li>Independent Projects</li>
                 <li>Collaborative Projects</li>

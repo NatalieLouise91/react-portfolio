@@ -5,7 +5,7 @@ export default function About() {
 
 
     const interests = ["develop", "collaborate", "language", "travel"];
-    const [myInterest, setMyInterest] = useState('');
+    const [myInterest, setMyInterest] = useState("develop");
 
     return (
         <div className="about" id="about">

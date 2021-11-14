@@ -12,6 +12,14 @@
         @include mobile {
             font-size: 20px;
         }
+        @include tablet {
+            font-size: 30px;
+        }
+        @include desktop {
+            font-size: 70px;
+            margin: 70px;
+            padding: 70px;
+        }
     }
 
     ul{
@@ -26,9 +34,17 @@
         }
 
         li {
-            font-size: 12px;
+            font-size: 14px;
             margin-right: 5px;
             padding: 0.7;
+        
+            @include mobile {
+                font-size: 12px;
+            }
+            @include desktop {
+                font-size: 25px;
+                margin: 20px;
+            }
         }
     }
     .container {
@@ -57,13 +73,28 @@
             cursor: pointer;
 
             @include mobile {
-                width: 150px;
-                height: 100px;
+                width: 200px;
+                height: 140px;
+            }
+
+            @include tablet {
+                width: 240px;
+                height: 180px;
+            }
+
+            @include desktop {
+                width: 500px;
+                height: 300px;
             }
         
         h3 {
             position: absolute;
             font-size: 20px;
+            
+            @include desktop {
+                font-size: 40px;
+            }
+
         }
         img {
             width: 100%;

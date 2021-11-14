@@ -15,7 +15,7 @@ export default function Intro() {
                     <h1>Natalie</h1>
                     <h3>I'm a web developer</h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#about">
                     <img src="assets/downarrow.png" alt="down arrow"/>
                 </a>
 
