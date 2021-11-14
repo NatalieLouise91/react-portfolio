@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro {
-    background-color: white;
+    background-color: $background;
     display: flex;
     padding-top: 5%;
 
@@ -28,7 +28,7 @@
         .imgContainer {
             width: 400px;
             height: 400px;
-            background-color: #052517;
+            background-color: $accentcolor;
             border-radius: 90%;
             display: flex;
             align-items: flex-end;
